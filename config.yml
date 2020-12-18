@@ -1,0 +1,10 @@
+worlds:
+   world:
+      prefix: Overworld
+      color: white
+   world_nether:
+      prefix: Nether
+      color: red
+      style: bold
+   world_the_end:
+      prefix: End

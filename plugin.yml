@@ -1,0 +1,33 @@
+main: com.arodsg.tabworldprefix.Main
+name: Tab-World-Prefix
+version: 1.0
+author: arodSG
+description: Create prefixes for specific worlds to display on the player list when users are in that world.
+commands:
+   twp:
+      description: commands for Tab World Prefix plugin
+      usage: /twp [delete/edit/list/set]
+      alias: [tabworldprefix]
+      permission: tabworldprefix.twp
+      permission-message: You don't have the tabworldprefix.twp permission. 
+   
+    ##list:
+       ##description: list the worlds that have a set prefix
+       ##usage: /list
+       ##permission: tabworldprefix.list
+       ##permission-message: You don't have the tabworldprefix.list permission.
+    ##set:
+       ##description: set a custom prefix for a specific world, and optionally set the prefix color and style
+       ##usage: /set [worldname] [prefix] {color/style} {color/style}
+       ##permission: tabworldprefix.set
+       ##permission-message: You don't have the tabworldprefix.set permission.
+    ##edit:
+       ##description: set the color for the specified world's prefix
+       ##usage: /edit [prefix/color/style] [worldname] [value]
+       ##permission: tabworldprefix.edit
+       ##permission-message: You don't have the tabworldprefix.edit permission.
+    ##delete:
+       ##description: deletes the custom prefix for a specific world
+       ##usage: /delete [worldname]
+       ##permission: tabworldprefix.delete
+       ##permission-message: You don't have the tabworldprefix.delete permission.
